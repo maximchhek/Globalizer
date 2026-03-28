@@ -44,5 +44,5 @@ if __name__ == "__main__":
                  parameters_numbers=params,
                  is_points_at_bottom=displacement_of_points,
                  output_file=output_file_name,
-                 is_need_show_figure=figure_show
+                 is_need_show_figure=True
                  )

@@ -289,7 +289,7 @@ foreach(main_filename ${main_list})
   # Get file name without extension
   get_filename_component(sample ${main_filename} NAME_WE)
   
-  if(GLOBALIZER_BUILD_PROBLEMS OR  (sample STREQUAL "SimpleMain"))  
+  if(GLOBALIZER_BUILD_PROBLEMS OR  (sample STREQUAL "MySimpleMain"))  
     set(GLOBALIZER_EXECUTABLE_NAME                 ${GLOBALIZER_PROJECT_NAME}${sample}${GLOBALIZER_EXECUTABLE_SUFFIX})
     set(GLOBALIZER_EXECUTABLE_NAME_DEBUG           ${GLOBALIZER_EXECUTABLE_NAME}_${GLOBALIZER_DEBUG_SUFFIX})
     set(GLOBALIZER_EXECUTABLE_NAME_RELEASE         ${GLOBALIZER_EXECUTABLE_NAME})
@@ -323,7 +323,7 @@ foreach(main_filename ${main_list})
 endforeach()
 
 
-#add_executable(${GLOBALIZER_PROJECT_NAME} ${GLOBALIZER_EXAMPLES_SRC_DIR}/Main.cpp)
+#add_executable(${GLOBALIZER_PROJECT_NAME} ${GLOBALIZER_EXAMPLES_SRC_DIR}/MySimpleMain.cpp)
 
 
 

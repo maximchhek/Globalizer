@@ -1,0 +1,5 @@
+C:/Users/maxsl/source/repos/Globalizer/CMakeFiles/mpi_stub.dir
+C:/Users/maxsl/source/repos/Globalizer/CMakeFiles/Globalizer_l.dir
+C:/Users/maxsl/source/repos/Globalizer/CMakeFiles/GlobalizerMySimpleMain.dir
+C:/Users/maxsl/source/repos/Globalizer/CMakeFiles/edit_cache.dir
+C:/Users/maxsl/source/repos/Globalizer/CMakeFiles/rebuild_cache.dir

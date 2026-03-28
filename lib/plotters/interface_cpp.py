@@ -18,7 +18,7 @@ class DrawingProcess:
                   parameters_numbers=[0],
                   is_points_at_bottom=True,
                   output_file="output.png",
-                  is_need_show_figure=False):
+                  is_need_show_figure=True):
         '''
         plotter_type: 'lines layers' 'surface'
         object_function_plotter_type: 'objective function' 'approximation' 'interpolation' 'by points' 'only points'
